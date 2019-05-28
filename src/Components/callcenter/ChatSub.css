@@ -1,0 +1,17 @@
+.OTSubscriberContainer {
+  position: relative;
+  width: 43%;
+  height: 80%;
+  display: inline-table;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* .OT_publisher, .OT_subscriber {
+    position: static;
+    min-width: 48px;
+    min-height: 48px;
+
+    margin-left: 300px;
+} */
