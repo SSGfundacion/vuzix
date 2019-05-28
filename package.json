@@ -2,7 +2,7 @@
   "name": "ssg-frontv2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ssgfundacion.github.io/SSGfundacion/vuzix",
+  "homepage": "https://ssgfundacion.github.io/SSGfundacion",
   "dependencies": {
     "@trendmicro/react-sidenav": "^0.4.4",
     "axios": "^0.18.0",
