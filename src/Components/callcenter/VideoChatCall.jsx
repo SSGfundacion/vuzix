@@ -125,7 +125,7 @@ class VideoChatCall extends Component {
                       </td>
                       <td>
                         <Reactstrap.Button color="success">
-                          <Link to = {'/ssg-frontv2/callcenter/pendingCalls'}>
+                          <Link to = {'/vuzix/callcenter/pendingCalls'}>
                             <SvgIcon size={30} icon={Icons.ic_phone}  style={{color:'#f4ff81 '}} />
                           </Link>
                         </Reactstrap.Button>

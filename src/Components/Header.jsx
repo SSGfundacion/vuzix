@@ -24,13 +24,13 @@ class Header extends Component {
 
           <SideNav className="sidenav---sidenav---_2tBP sidenav---expanded---1KdUL" style={{background: '#0d47a1', color: '#FFF', width: 250}} onSelect={(selected) =>{
 
-            const to = '/ssg-frontv2/'+selected;
+            const to = '/vuzix/'+selected;
             if(location.pathname !==to){
               history.push(to);
             }
 
           }} >
-            <Link to={'/ssg-frontv2'}><img src={logogrupossg} alt="Grupo SSG" style={{height:"140px", width:"205px"}}/></Link>
+            <Link to={'/vuzix'}><img src={logogrupossg} alt="Grupo SSG" style={{height:"140px", width:"205px"}}/></Link>
             <br/>
             <SideNav.Nav>
 
@@ -65,13 +65,13 @@ class Header extends Component {
             </SideNav.Nav>
           </SideNav>
           <main>
-            <Route path="/ssg-frontv2" exact component={props=> <PendingCalls/>}/>
-            <Route path="/ssg-frontv2/callcenter/console" exact component={props => <VideoChatCall/>} />
-            <Route path="/ssg-frontv2/callcenter/activeCalls" exact component={props => <ActiveCalls />} />
-            <Route path="/ssg-frontv2/callcenter/historyCalls" exact component={props => <HistoryCalls />} />
-            <Route path="/ssg-frontv2/callcenter/videoPlayer/id=X20180101" exact component={props => <VideoPlayer/>} />
-            <Route path="/ssg-frontv2/callcenter/activeCall/id=A20180510"  exact component={props => <VideoChatSub/>} />
-            <Route path="/ssg-frontv2/callcenter/pendingCalls" exact component={props => <PendingCalls/>} />
+            <Route path="/vuzix" exact component={props=> <PendingCalls/>}/>
+            <Route path="/vuzix/callcenter/console" exact component={props => <VideoChatCall/>} />
+            <Route path="/vuzix/callcenter/activeCalls" exact component={props => <ActiveCalls />} />
+            <Route path="/vuzix/callcenter/historyCalls" exact component={props => <HistoryCalls />} />
+            <Route path="/vuzix/callcenter/videoPlayer/id=X20180101" exact component={props => <VideoPlayer/>} />
+            <Route path="/vuzix/callcenter/activeCall/id=A20180510"  exact component={props => <VideoChatSub/>} />
+            <Route path="/vuzix/callcenter/pendingCalls" exact component={props => <PendingCalls/>} />
           </main>
         </React.Fragment>
 

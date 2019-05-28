@@ -55,7 +55,7 @@ class HistoryCalls extends Component {
               <br/>
               <b>Duración: </b> {c.duracion}
               <br/>
-              <Link to={'/ssg-frontv2/callcenter/videoPlayer/id=X20180101'}>
+              <Link to={'/vuzix/callcenter/videoPlayer/id=X20180101'}>
                   <Reactstrap.Button color="primary" size="mg">Reproducir</Reactstrap.Button>
               </Link>
             </Reactstrap.ListGroupItem>

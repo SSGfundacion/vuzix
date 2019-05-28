@@ -70,7 +70,7 @@ class PendingCalls extends Component {
               <br/>
               <b>Solicitante: </b> {c.solicitante}
               <br/>
-              <Link to={'/ssg-frontv2/callcenter/console'}>
+              <Link to={'/vuzix/callcenter/console'}>
                 <Reactstrap.Button color="primary" size="lg" style={{height:"20%",width:"25%"}}>Atender llamada</Reactstrap.Button>
               </Link>
             </Reactstrap.ListGroupItem>

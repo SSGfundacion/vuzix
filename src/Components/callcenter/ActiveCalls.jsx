@@ -40,7 +40,7 @@ class ActiveCalls extends Component {
         <h3>LLamadas activas</h3>
         <Reactstrap.ListGroup>
           {this.state.calls.map(c=>
-            <Link to={'/ssg-frontv2/callcenter/activeCall/id=A20180510'}>
+            <Link to={'/vuzix/callcenter/activeCall/id=A20180510'}>
             <Reactstrap.ListGroupItem key={c.ambulancia}  style={{textAlign:'left'}}>
               <b>Ambulancia: </b> {c.ambulancia}
               <br/>
